@@ -1,0 +1,67 @@
+.container
+{
+    margin-top: 50px;
+    padding: 20px;
+    /*display: flex;
+    flex-direction: column; */
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    background: rgba(86, 86, 86, 0.3);
+    /*background: rgba(226, 228, 217, 0.3);*/
+    border-radius: 10px;
+
+    -webkit-box-shadow: -1px 2px 93px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: -1px 2px 93px 0px rgba(0,0,0,0.36);
+    box-shadow: -1px 2px 93px 0px rgba(0,0,0,0.36);
+}
+
+#additionalInfHeader{
+
+    border-bottom: solid 1px rgba(119, 119, 119, 0.8);
+
+    padding: 5px;
+    padding-top: 0;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+    color: #6e6e6e;
+    font-size: 13px;
+}
+
+.account_name{
+
+
+}
+
+.account_item
+{
+    font-size: 15px;
+    color: #1d3f12;
+    letter-spacing: 2px;
+    padding: 15px;
+    border-bottom: solid 1px #1d3f12;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#delete_btn{
+    color: #396e34;
+}
+
+#delete_btn a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+#delete_btn:hover{
+    color: #319e20;
+}
+
+.delete_btn{
+    float: right;
+    margin-top: 20px
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c69fc877-9b4f-4b37-8b83-6f4ec9bb2563" name="blogownia_server" url="http://blogownia.000webhostapp.com">
+        <fileTransfer host="files.000webhost.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fd190334-b635-42f5-921d-28ba908f04ac" name="cba" url="http://blogownia.cba.pl">
+        <fileTransfer host="mkwk012.cba.pl" port="21" rootFolder="/blogownia.cba.pl">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

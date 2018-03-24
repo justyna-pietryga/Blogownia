@@ -1,0 +1,53 @@
+#logo
+{
+    display: none;
+}
+
+#menu_show{
+    width: 100%;
+    background-color: #319e20;
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0;
+}
+
+#pasek{
+    margin: 0;
+    display: block;
+    background-color: #3aba26;
+    color: #e7ede4;
+}
+
+.right{
+    clear: both;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+}
+
+.menu{
+    color: #333333;
+    list-style-type: none;
+    margin: 0;
+}
+ul > li
+{
+
+}
+ul a{
+
+    color: #98ce8f;
+    display: block;
+    text-decoration: none;
+}
+
+ul > li > ol {
+    list-style-type: none;
+    display: block;
+
+}
